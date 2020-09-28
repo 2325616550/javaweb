@@ -1,0 +1,3 @@
+# javaweb-
+前端基础bootstrap初步会用到springboot框架写的一个小网站
+目前是javeee web项目后期会逐步到maven项目用框架完成
