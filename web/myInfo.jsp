@@ -25,7 +25,7 @@
   <h1>个人简历 <small>v1.0</small></h1>
 </div>
 <center>
-<img src="img/info.jpg" alt="帅的看不见了" class="img-circle" >
+<img src="img/info/info.jpg" alt="帅的看不见了" class="img-circle" >
 </center>
 </br>
 <table class="table table-hover">

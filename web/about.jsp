@@ -34,14 +34,18 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-md-6">
-        <center><img src="img/weChat.jpg" alt="加我微信！！" class="img-circle" width="428px" ></center>
+    <div class="col-md-4" style="top: 60px">
+        <center><img src="img/about/weChat.jpg" alt="加我微信！！" class="img-circle" width="380px" ></center>
         <br>
-        <h1 class="media-heading" align="center">扫描二维码 加作者好友</h1>
+        <h1 class="media-heading" align="center">微信扫描二维码 加作者好友</h1>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4" style="top: 50px">
         <h1 class="media-heading" align="center">不定时完善中----</h1>
-        <center><img src="img/power.jpg" alt="给我力量！！" class="img-rounded" width="428px" ></center>
+        <center><img src="img/about/power.jpg" alt="给我力量！！" class="img-rounded" width="380px" ></center>
+    </div>
+    <div class="col-md-4">
+        <center><img src="img/about/github.jpg" alt="搜索加好友！！" class="img-rounded" width="380px" ></center>
+        <h1 class="media-heading" align="center">github搜索用户 加好友</h1>
     </div>
 </div>
 <script language="javascript">
