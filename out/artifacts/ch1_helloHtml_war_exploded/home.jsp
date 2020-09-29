@@ -2,7 +2,7 @@
 <html>
 <head>
     <%@ include file="common/head.jsp"%>
-<%--    <link type="text/css" rel="stylesheet" href="css/home.css" >--%>
+
     <style>
     video#bgvid {
     position: fixed;
@@ -73,40 +73,40 @@
      <div class="container">
          <div class="row">
              <div class="media-title text-center">
-                 <h1>快速入门</h1>
+                 <h1>欢迎访问<mark>吉比特</mark>的网</h1>
                  <div class="media-text">
-                     <p>通过如下步骤，可以使你快速上手Egret开发 </p>
-                     <p>完成从小白到老鸟的蜕变！</p>
+                     <p>通过如下步骤，可以使你快速了解这个网站 </p>
+                     <p>功能陆续完善中！</p>
                  </div>
              </div>
          </div>
          <div class="row media-link">
              <div class="col-sm-3 col-xs-6">
-                 <a href="/cn/github/egret-docs/Engine2D/projectConfig/installation/index.html">
-                     <div alt="" class="center-block media-icon" style="background:url(http://cdn.dev.egret.com/simpleboot/home/img/fix.png);">
+                 <a href="wait.jsp?msg=注册功能">
+                     <div alt="" class="center-block media-icon" style="background:url('img/home/regist.jpg');">
                      </div>
-                     <div class="text-center media-text"> <span>安装</span> </div>
+                     <div class="text-center media-text"> <span>注册</span> </div>
                  </a>
              </div>
              <div class="col-sm-3 col-xs-6">
-                 <a href="/cn/github/egret-docs/Engine2D/getStarted/helloWorld/index.html">
-                     <div alt="" class="center-block media-icon" style="background:url(http://cdn.dev.egret.com/simpleboot/home/img/hellow.png);">
+                 <a href="wait.jsp?msg=登录功能">
+                     <div alt="" class="center-block media-icon" style="background:url('img/home/login.jpg');">
                      </div>
-                     <div class="text-center media-text">Hello, world</div>
+                     <div class="text-center media-text">登录</div>
                  </a>
              </div>
              <div class="col-sm-3 col-xs-6">
-                 <a href="/cn/github/egret-docs/Engine2D/getStarted/getStarted/index.html">
-                     <div alt="" class="center-block media-icon" style="background:url(http://cdn.dev.egret.com/simpleboot/home/img/tursio.png);">
+                 <a href="index.jsp">
+                     <div alt="" class="center-block media-icon" style="background:url('img/home/homepage.jpg');">
                      </div>
-                     <div class="text-center media-text">小白教程</div>
+                     <div class="text-center media-text">主页</div>
                  </a>
              </div>
              <div class="col-sm-3 col-xs-6">
-                 <a href="/cn/github/egret-docs/extension/threes/instructions/index.html">
+                 <a href="wait.jsp">
                      <div alt="" class="center-block media-icon" style="background:url(http://cdn.dev.egret.com/simpleboot/home/img/more.png);">
                      </div>
-                     <div class="text-center media-text">扩展</div>
+                     <div class="text-center media-text">空</div>
                  </a>
              </div>
          </div>

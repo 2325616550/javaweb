@@ -47,29 +47,34 @@
     <script type="text/javascript" src="static/js/jquerylogin-1.7.2.js"></script>
     <script type="text/javascript">
         $(function(){
-            alert("jell");
-            $("#sub_btn").click(function () {
+                 $("#sub_btn").click(function () {
                 var usernameText = $("#username").val();
                 var usernamePatt = /^\w{5,12}$/;
-                if (!usernamePatt.test(usernameText)) {
+                var flag=true;
+
+                if (!usernamePatt.test(usernameText) && flag == true ) {
                     $("span.errorMsg").text("用户不合法！");
-                    return false;
-                }
-                var passwordText = $("#password").val();
-                var passwordPatt = /^\w{5,12}$/;
-                if (!passwordPatt.test(passwordText)) {
-                    $("span.errorMsg").text("密码不合法！");
-                    return false;
-                }
-                var repwdText = $("#repwd").val();
-                if (repwdText != passwordText) {
-                    $("span.errorMsg").text("确认密码和密码不一致！");
+                    flag=false;
                     return false;
                 }
                 var emailText = $("#email").val();
                 var emailPatt = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
-                if (!emailPatt.test(emailText)) {
+                if (!emailPatt.test(emailText) && flag == true) {
                     $("span.errorMsg").text("邮箱格式不合法！");
+                    flag=false;
+                    return false;
+                }
+
+                var passwordText = $("#password").val();
+                var passwordPatt = /^\w{5,12}$/;
+                if (!passwordPatt.test(passwordText) && flag == true) {
+                    $("span.errorMsg").text("密码不合法！");
+                    return false;
+                }
+                var repwdText = $("#repwd").val();
+                if (repwdText != passwordText && flag == true) {
+                    $("span.errorMsg").text("确认密码和密码不一致！");
+                    flag=false;
                     return false;
                 }
 
@@ -96,10 +101,17 @@
             </ul>
         </div>
     </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-2">
+<%--        <p class="navbar-text" id="test"></p>--%>
+        <li role="presentation" style="top: 5px" id="test"></li>
+    </div>
 </div>
 <div class="container">
-    <span class="errorMsg" style="color: white; margin: 0; text-align: center">${empty param.msg?"":param.msg}</span>
-         <form action="index.jsp" method="post">
+    <br>
+    <br>
+    <span class="errorMsg" style="color: green; margin: 0; text-align: center">${empty param.msg?"":param.msg}</span>
+         <form action="wait.jsp?msg=提交功能" method="post">
     <center>
    <input type="text" id="username" name="name" placeholder="用户名" value="${param.name}"/><br>
    <input type="text" id="email" name="email" placeholder="邮箱" value="${param.email}"/><br>
