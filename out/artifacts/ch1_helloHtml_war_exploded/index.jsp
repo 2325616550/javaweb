@@ -5,14 +5,21 @@
 <meta charset="UTF-8">
 <title>你好 欢迎访问吉比特的网</title>
     <style>
-        .quote{background-color:#fafafa}.quote-blockquote{padding:0 2.0625rem;margin:0 1rem}.quote-wrapper{padding-top:3rem;padding-bottom:3rem}.quote-quote{font-weight:600;line-height:1.25;margin-bottom:2.5rem}.quote-note,.quote-title{font-size:1.25rem;font-weight:600;margin:0}.quote-title{font-style:italic}@media (max-width:991px){.quote-wrapper{padding:0}}@media (max-width:767px){.quote-blockquote{padding:0 1rem}.quote-quote{font-size:1.375rem;margin-bottom:2rem}.quote-title{font-size:1.125rem}.quote-note{font-size:1rem}}.blockquote-footer::before{content:''}
+        .quote{background-color:#fafafa}
+        .quote-blockquote{padding:0 2.0625rem;margin:0 1rem}
+        .quote-wrapper{padding-top:3rem;padding-bottom:3rem}
+        .quote-quote{font-weight:600;line-height:1.25;margin-bottom:2.5rem}
+        .quote-note,.quote-title{font-size:1.25rem;font-weight:600;margin:0}
+        .quote-title{font-style:italic}@media (max-width:991px){.quote-wrapper{padding:0}}@media (max-width:767px){.quote-blockquote{padding:0 1rem}.quote-quote{font-size:1.375rem;margin-bottom:2rem}
+        .quote-title{font-size:1.125rem}
+        .quote-note{font-size:1rem}}
         .site-section{padding:2rem 0}@media (min-width:768px){.site-section{padding:3rem 0}}
-        .container{position:relative;margin-left:auto;margin-right:auto;padding-right:15px;padding-left:15px}@media (min-width:576px){.container{padding-right:15px;padding-left:15px}}@media (min-width:768px){.container{padding-right:15px;padding-left:15px}}@media (min-width:992px){.container{padding-right:15px;padding-left:15px}}@media (min-width:1200px){.container{padding-right:15px;padding-left:15px}}@media (min-width:576px){.container{width:540px;max-width:100%}}@media (min-width:768px){.container{width:720px;max-width:100%}}@media (min-width:992px){.container{width:960px;max-width:100%}}@media (min-width:1200px){.container{width:1140px;max-width:100%}}.container-fluid{position:relative;margin-left:auto;margin-right:auto;padding-right:15px;padding-left:15px}@media (min-width:576px){.container-fluid{padding-right:15px;padding-left:15px}}@media (min-width:768px){.container-fluid{padding-right:15px;padding-left:15px}}@media (min-width:992px){.container-fluid{padding-right:15px;padding-left:15px}}@media (min-width:1200px){.container-fluid{padding-right:15px;padding-left:15px}}
+        .container{position:relative;margin-left:auto;margin-right:auto;padding-right:15px;padding-left:15px}@media (min-width:576px){.container{padding-right:15px;padding-left:15px}}@media (min-width:768px){.container{padding-right:15px;padding-left:15px}}@media (min-width:992px){.container{padding-right:15px;padding-left:15px}}@media (min-width:1200px){.container{padding-right:15px;padding-left:15px}}@media (min-width:576px){.container{width:540px;max-width:100%}}@media (min-width:768px){.container{width:720px;max-width:100%}}@media (min-width:992px){.container{width:960px;max-width:100%}}@media (min-width:1200px){.container{width:1140px;max-width:100%}}
         .justify-content-center{-webkit-box-pack:center!important;-ms-flex-pack:center!important;justify-content:center!important}
         .blockquote{padding:.5rem 1rem;margin-bottom:1rem;font-size:1.625rem;border-left:6px solid #00c96a}
-        .text-center{text-align:center}
+        .text-center{text-align:center!important}
         .blockquote-footer{display:block;font-size:80%;color:#4a4a4a}
-        .row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}@media (min-width:576px){.row{margin-right:-15px;margin-left:-15px}}@media (min-width:768px){.row{margin-right:-15px;margin-left:-15px}}@media (min-width:992px){.row{margin-right:-15px;margin-left:-15px}}@media (min-width:1200px){.row{margin-right:-15px;margin-left:-15px}}
+        .row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}@media (min-width:576px){.row{margin-right:-15px;margin-left:-15px}}@media (min-width:768px){.row{margin-right:-15px;margin-left:-15px}}@media (min-width:992px){.row{margin-right:-15px;margin-left:-15px}}@media (min-width:1200px){.row{margin-right:-15px;margin-left:-15px}}.no-gutters{margin-right:0;margin-left:0}.no-gutters>.col,.no-gutters>[class*=col-]{padding-right:0;padding-left:0}
     </style>
 </head>
 <body style="background: #fafafa">
@@ -31,7 +38,7 @@
         </div>
     </div>
     <div class="col-md-2"></div>
-    <div class="col-md-2"><p class="navbar-text" id="test"></p></div>
+    <div class="col-md-2"><p class="navbar-text" id="test"></p></div>>
 </div>
 
 <div class="jumbotron" align="center">

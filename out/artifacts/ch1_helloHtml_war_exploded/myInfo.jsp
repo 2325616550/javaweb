@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="common/head.jsp"%>
 <head>
-<title>个人简介</title>
+<title>个人介绍</title>
 </head>
 <body>
 <div class="row  navbar-inverse"  style="height: 50px">
@@ -22,7 +22,7 @@
   <div class="col-md-2"><p class="navbar-text" id="test"></p></div>
 </div>
 <div class="page-header" align="center">
-  <h1>个人简历 <small>v1.0</small></h1>
+  <h1>个人介绍 <small>v1.0</small></h1>
 </div>
 <center>
 <img src="img/info/info.jpg" alt="帅的看不见了" class="img-circle" >

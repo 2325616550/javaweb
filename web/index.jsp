@@ -19,6 +19,7 @@
         .blockquote{padding:.5rem 1rem;margin-bottom:1rem;font-size:1.625rem;border-left:6px solid #00c96a}
         .text-center{text-align:center!important}
         .blockquote-footer{display:block;font-size:80%;color:#4a4a4a}
+        .row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}@media (min-width:576px){.row{margin-right:-15px;margin-left:-15px}}@media (min-width:768px){.row{margin-right:-15px;margin-left:-15px}}@media (min-width:992px){.row{margin-right:-15px;margin-left:-15px}}@media (min-width:1200px){.row{margin-right:-15px;margin-left:-15px}}.no-gutters{margin-right:0;margin-left:0}.no-gutters>.col,.no-gutters>[class*=col-]{padding-right:0;padding-left:0}
     </style>
 </head>
 <body style="background: #fafafa">
@@ -37,7 +38,7 @@
         </div>
     </div>
     <div class="col-md-2"></div>
-    <div class="col-md-2"><p class="navbar-text" id="test"></p></div>
+    <div class="col-md-2"><p class="navbar-text" id="test"></p></div>>
 </div>
 
 <div class="jumbotron" align="center">
