@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<%--<meta http-equiv="X-UA-Compatible" content="IE=edge">--%>
+<%--<meta name="viewport" content="width=device-width, initial-scale=1">--%>
 <link rel="stylesheet"  href="css/bootstrap.min.css"/>
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -71,3 +71,19 @@
         setTimeout("snow()",10);//间隔10毫秒调用一次snow函数
     }
 </script>
+<style>
+.header-sign-up .btn-success {
+min-width: 124px;
+font-size: 15px;
+text-align: center;
+color: #ffffff;
+border-radius: 5px;
+background-color: #37cf7d;
+border-color: #37cf7d;
+padding-top: 10px;
+padding-bottom: 13px;
+box-shadow: none;
+outline: none;
+margin: 2px auto;
+}
+</style>
