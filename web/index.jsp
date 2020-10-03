@@ -10,10 +10,9 @@
         .quote-wrapper{padding-top:3rem;padding-bottom:3rem}
         .quote-quote{font-weight:600;line-height:1.25;margin-bottom:2.5rem}
         .quote-note,.quote-title{font-size:1.25rem;font-weight:600;margin:0}
-        .quote-title{font-style:italic}@media (max-width:991px){.quote-wrapper{padding:0}}@media (max-width:767px){.quote-blockquote{padding:0 1rem}.quote-quote{font-size:1.375rem;margin-bottom:2rem}
-        .quote-title{font-size:1.125rem}.quote-note{font-size:1rem}}
+        .quote-title{font-style:italic}
         .site-section{padding:2rem 0}@media (min-width:768px){.site-section{padding:3rem 0}}
-        .container{position:relative;margin-left:auto;margin-right:auto;padding-right:15px;padding-left:15px}@media (min-width:576px){.container{padding-right:15px;padding-left:15px}}@media (min-width:768px){.container{padding-right:15px;padding-left:15px}}@media (min-width:992px){.container{padding-right:15px;padding-left:15px}}@media (min-width:1200px){.container{padding-right:15px;padding-left:15px}}@media (min-width:576px){.container{width:540px;max-width:100%}}@media (min-width:768px){.container{width:720px;max-width:100%}}@media (min-width:992px){.container{width:960px;max-width:100%}}@media (min-width:1200px){.container{width:1140px;max-width:100%}}
+        .container{position:relative;margin-left:auto;margin-right:auto;padding-right:15px;padding-left:15px}
         .justify-content-center{-webkit-box-pack:center!important;-ms-flex-pack:center!important;justify-content:center!important}
         .blockquote{padding:.5rem 1rem;margin-bottom:1rem;font-size:1.625rem;border-left:6px solid #00c96a}
         .text-center{text-align:center!important}
@@ -22,13 +21,19 @@
     </style>
 <head>
 <body style="background: #fafafa">
-<div class="navbar navbar-default navbar-fixed-top">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="row "  style="height: 50px">
         <div class="col-md-8">
+            <div class="nav navbar-header">
+                <a  class="navbar-brand" href="home.jsp">吉比特的网</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar1,#navBar2,#navBar3">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navBar1">
             <ul class="nav nav-pills"  >
-                <div class="nav navbar-header">
-                    <a  class="navbar-brand" href="home.jsp">吉比特的网</a>
-                </div>
                 <li role="presentation" class="active" style="top: 5px"><a href="index.jsp">主页</a></li>
                 <li role="presentation" style="top: 5px"><a href="myInfo.jsp">了解我</a></li>
                 <li role="presentation" style="top: 5px"><a href="about.jsp">关于</a></li>
@@ -36,10 +41,14 @@
                 <li role="presentation"  class="navbar-right" style="top: 5px"><a href="login.jsp">登录</a></li>
             </ul>
         </div>
-        <div class="col-md-2">
-            <div class="header-sign-up" ><a href="regist.jsp"  class="btn btn-success ref-signup">注册</a></div>
         </div>
-        <div class="col-md-2"><p class="navbar-text" id="test"></p></div>
+        <div class="col-md-2">
+            <div  class="collapse navbar-collapse" id="navBar2">
+            <div class="header-sign-up" ><a href="regist.jsp"  class="btn btn-success ref-signup ">注册</a></div>
+            </div>
+        </div>
+        <div class="col-md-2">      <div  class="collapse navbar-collapse" id="navBar3"><p class="navbar-text" id="test"></p></div>
+        </div>
     </div>
 </div>
 <br>

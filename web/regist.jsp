@@ -5,24 +5,34 @@
     <link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
-<div class="navbar navbar-default navbar-fixed-top" >
-    <div class="row "  >
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="row "  style="height: 50px">
         <div class="col-md-8">
-            <ul class="nav nav-pills">
-                <div class="nav navbar-header">
-                    <a  class="navbar-brand" href="home.jsp">吉比特的网</a>
-                </div>
-                <li role="presentation" style="top: 5px"><a href="index.jsp">主页</a></li>
-                <li role="presentation" style="top: 5px"><a href="myInfo.jsp">了解我</a></li>
-                <li role="presentation" style="top: 5px"><a href="about.jsp">关于</a></li>
-                <li role="presentation" style="top: 5px"><a href="qustionnaire.jsp">问卷调查</a></li>
-                <li role="presentation"  class="navbar-right" style="top: 5px"><a href="login.jsp">登录</a></li>
-            </ul>
+            <div class="nav navbar-header">
+                <a  class="navbar-brand" href="home.jsp">吉比特的网</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar1,#navBar2,#navBar3">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navBar1">
+                <ul class="nav nav-pills"  >
+                    <li role="presentation" style="top: 5px"><a href="index.jsp">主页</a></li>
+                    <li role="presentation" style="top: 5px"><a href="myInfo.jsp">了解我</a></li>
+                    <li role="presentation" style="top: 5px"><a href="about.jsp">关于</a></li>
+                    <li role="presentation" style="top: 5px"><a href="qustionnaire.jsp">问卷调查</a></li>
+                    <li role="presentation"  class="navbar-right" style="top: 5px"><a href="login.jsp">登录</a></li>
+                </ul>
+            </div>
         </div>
         <div class="col-md-2">
-            <div class="header-sign-up" ><a href="regist.jsp"  class="btn btn-success ref-signup">注册</a></div>
+            <div  class="collapse navbar-collapse" id="navBar2">
+                <div class="header-sign-up" ><a href="regist.jsp"  class="btn btn-success ref-signup ">注册</a></div>
+            </div>
         </div>
-        <div class="col-md-2"><p class="navbar-text" id="test"></p></div>
+        <div class="col-md-2">      <div  class="collapse navbar-collapse" id="navBar3"><p class="navbar-text" id="test"></p></div>
+        </div>
     </div>
 </div>
 
