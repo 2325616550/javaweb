@@ -4,3 +4,5 @@
 
 2020.10.8
 已经将此内容适配到springboot项目，仓库为javaweb-jibite 
+
+此项目可访问 http://39.100.64.245/JIBITE
